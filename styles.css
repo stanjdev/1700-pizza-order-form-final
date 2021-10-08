@@ -1,0 +1,35 @@
+* {
+  font-family: Helvetica;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.section-block {
+  border: solid 1px;
+  display: flex;
+  flex-direction: column;
+  height: 260px;
+  width: 260px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.section-block > #circle {
+  margin: 0 auto;
+}
+
+input {
+  padding: 10px;
+}
+

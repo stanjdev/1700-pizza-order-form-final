@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Order App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <main>
+
+    <section class="section-block">
+      <h1>Order Form</h1>
+      <label for="name">Order name</label>
+      <input type="text" id="name"/>
+      <label for="diameter">Diameter (in inches)</label>
+      <input type="range" id="diameter" min='6' max='100'/>
+      <label for="toppings">Choose toppings</label>
+      <select name="toppings" id="toppings">
+        <option value="cheese">Cheese</option>
+        <option value="pepperoni">Pepperoni</option>
+        <option value="sausage">Sausage</option>
+        <option value="onion">Onion</option>
+        <option value="tomato">Tomato</option>
+      </select>
+    </section>
+
+    <section class="section-block">
+      <h1>Order Details</h1>
+      <div id="name-display">Name: </div>
+      <div id="diameter-display">Diameter: </div>
+      <div id="cost-display">Cost: </div>
+    </section>
+
+    <section class="section-block">
+      <h1>Order Visualization</h1>
+      <div id="circle"></div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
