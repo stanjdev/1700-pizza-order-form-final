@@ -11,7 +11,7 @@
   
   <main>
 
-    <section class="section-block">
+    <section class="section-block form">
       <h1>Order Form</h1>
       <label for="name">Order name</label>
       <input type="text" id="name"/>
@@ -25,22 +25,27 @@
         <option value="onion">Onion</option>
         <option value="tomato">Tomato</option>
       </select>
+      <div class='vegetarian-div'>
+        <input type="checkbox" name="vegetarian" id="vegetarian">
+        <label for="vegetarian">Vegetarian</label>
+      </div>
     </section>
 
-    <section class="section-block">
+    <section class="section-block details">
       <h1>Order Details</h1>
       <div id="name-display">Name: </div>
       <div id="diameter-display">Diameter: </div>
       <div id="cost-display">Cost: </div>
+      <div id="vegetarian-display"></div>
     </section>
 
-    <section class="section-block">
+    <section class="section-block visualization">
       <h1>Order Visualization</h1>
       <div id="circle"></div>
     </section>
 
   </main>
 
-  <script src="script.js"></script>
+  <script src="script.js" type="module"></script>
 </body>
 </html>

@@ -111,7 +111,7 @@ If you have solved the problem try these stretch goals.
 
 - Put your script and CSS in their file
 - Set the type of your script to module
-- Create a helpers JS file and export a function to calculate the area of a circle. 
+- Create a helpers JS file and export a function to calculate the area of a circle.
 - Import the area function in your main module. 
 - Add a background picture to the circle in the pizza visualizer. Set the image based on the topping chosen. There are images in the images folder. (see the image below)
 - Add a checkbox at the bottom of the order form for vegetarians. Display a note in the order details box if this is checked and add $0.05 per square inch to the cost. Give the pizza circle in the visualizer a green border if the vegetarian is checked. 
